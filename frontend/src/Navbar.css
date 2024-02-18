@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-item a:hover {
+    color: #555;
+  }
+  

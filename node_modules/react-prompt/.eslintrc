@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+  "plugins": ["compat"],
+  "rules": {
+    "indent": 2,
+    "compat/compat": 2
+  },
+  "globals": {
+    "describe": true,
+    "it": false,
+    "beforeEach": true,
+    "before": true,
+    "xit": false,
+    "afterEach": true
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "browsers": {
+    "production": [
+      "last 2 versions"
+    ]
+  }
+}

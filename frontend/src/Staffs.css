@@ -1,0 +1,139 @@
+.container-staffs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:0%;
+}
+
+.heading-staffs {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.card-staff {
+  width: 1100px;
+  padding: 20px;
+  background-color: #0d0d0d;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top:-50%;
+}
+
+.staff-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.staff-column {
+  flex: 1;
+}
+
+.staff-info {
+  margin: 0;
+}
+
+.add-staff-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 235, 235, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-staff-card1 {
+  width: 400px;
+  padding: 20px;
+  background-color: #fbf8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-staff-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-staff-card label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-staff-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-staff-button,
+.cancel-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fetch-button1 {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.fetch-button2 {
+  margin-top: 20px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.delete-staff-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-staff-card {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-staff-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.delete-staff-card label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.delete-staff-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.delete-staff-button,
+.cancel-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}

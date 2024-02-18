@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&display=swap");
+
+.p-3{
+    color: rgb(17, 17, 17);
+    font-family: "Noto Sans Mono", monospace;
+    flex-direction: column;
+    margin-top: -10%;
+  
+  
+
+}
+
+#video {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.heading{
+  color: rgb(243, 241, 243);
+  
+
+  
+  font-family: "Noto Sans Mono", monospace;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  
+
+
+}
+.btn1{
+ 
+
+  
+  border-radius: 25px;
+  width:20px;
+  outline: 0;
+  background-color: #4e65f7;
+  color: white;
+  border: 2px solid transparent;
+}
+.btn1:hover{
+  border: 2px solid #4e65f7;
+  background-color: #000;
+}
+
+.text-danger-error{
+  color:red;
+  text-size-adjust: 10;
+}

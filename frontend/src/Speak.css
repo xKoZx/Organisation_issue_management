@@ -1,0 +1,162 @@
+/* Speak.css */
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+
+.chat-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+}
+
+.card1 {
+  height: 50vh;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 0%;
+  width: 100%;
+}
+
+.card-body1 {
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #0f0f0f #060606;
+}
+
+.card-body1::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+.card-body1::-webkit-scrollbar-track {
+  background-color: #151515;
+}
+
+.card-body1::-webkit-scrollbar-thumb {
+  background-color: #131313;
+}
+
+.message-bubble {
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.user {
+  background-color: #68ea05;
+  align-self: flex-end;
+  margin-left: auto; /* Move the user message to the right */
+}
+
+.bot {
+  background-color: #e6f41f;
+  align-self: flex-start;
+}
+
+.user-input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.user-input {
+  flex-grow: 1;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.send-button {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 10%;
+}
+
+.imgBox-siri {
+  position: absolute;
+  top: -60%;
+  left: 35%;
+  width: 50%;
+  height: 50%;
+  border-radius: 150%;
+  margin-top: 30%;
+  margin-left: 10%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+/* .imgBox-siri {
+  position: absolute;
+  top: -60%;
+  left: 35%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: 30%;
+  margin-left: 10%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+} */
+.siri{
+  position: absolute;
+  top: -60%;
+  left: -50%;
+ 
+ max-height: 10%;
+  max-width: 10%;
+  
+ 
+}
+
+.issue-category-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.issue-category {
+  
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width:50%;
+  margin-left: 25%;
+}
+
+.chat-button1 {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:20%;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.issueCategory{
+  color:white;
+}
+.chat-button1:hover {
+  background-color: #45a049;
+}
+

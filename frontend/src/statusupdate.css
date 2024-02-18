@@ -1,0 +1,164 @@
+.container-update {
+    text-align: center;
+    margin-top: -80%;
+  }
+  
+  .heading {
+    color: #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 150px;
+  }
+  
+  .card5 {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .report-table th,
+  .report-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .report-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .card5 .datain {
+    color: #ccc;
+  }
+  
+  .report-table {
+    color: black;
+  }
+  
+  .report-table .report-data {
+    color: #ccc;
+  }
+  
+  .prompt-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .prompt-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .prompt-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .prompt-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .prompt-value {
+    margin-bottom: 10px;
+  }
+  
+  .prompt-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-card p {
+    margin-bottom: 10px;
+  }
+  
+  .error-card button {
+    padding: 5px 10px;
+  }
+  
+
+.update-prompt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .update-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .update-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .update-card label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .update-card select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .send-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  
+  .send-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: #fff;
+  }

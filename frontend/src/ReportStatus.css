@@ -1,0 +1,128 @@
+.container-report-status {
+    text-align: center;
+    margin-top: -80%;
+  }
+  
+  .heading {
+    color: #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card5 {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .report-table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .report-table1 th,
+  .report-table1 td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .report-table1 th {
+    
+    font-weight: bold;
+  }
+  
+  .card5 .datain1 {
+    color: #f7f3f3;
+  }
+  
+  .report-table1 {
+    color: rgb(23, 22, 22);
+  }
+  
+  .report-table .report-data {
+    color: #fbfafa;
+  }
+  
+  .prompt-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .prompt-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+  .prompt-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .prompt-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .prompt-value {
+    margin-bottom: 10px;
+  }
+  
+  .prompt-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-card p {
+    margin-bottom: 10px;
+  }
+  
+  .error-card button {
+    padding: 5px 10px;
+  }
+  
+  .overlay {
+    /* Your existing styles */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prompt {
+    /* Your existing styles */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
