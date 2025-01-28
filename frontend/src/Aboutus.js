@@ -13,7 +13,7 @@ function Aboutus(){
         <div class="imgBox-about">
           <img
             src={img1}
-            alt=""
+            alt="img"
           />
         </div>
         <div class="content">
